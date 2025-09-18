@@ -10,9 +10,9 @@ This repository achieved **7nd Place Award​​** in the The 2nd International 
 - 加载一次数据集后，程序会将处理后的数据集对象保存。保存路径在`data`文件夹下，文件名为`cida10.dataset`-->
 
 - Create a `data` folder at the same level as the `OWM_Resnet50` folder.
-- 
+  
 - Place the files downloaded by `shift.CIFAR10` into the `data` directory.
-- 
+  
 - After loading the dataset once, the program will save the processed dataset object. The save path is in the `data` folder, with the file named `cifa10.dataset`.
    
 - In the 10split, each task has 5,000 images, with 10 tasks, resulting in a training set of 50,000 images in total. The test set has 500 images per task, with 10 tasks, resulting in a test set of 5,000 images in total.

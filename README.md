@@ -1,5 +1,7 @@
 # OWM_Resnet50
-连续学习比赛
+
+This repository achieved **7nd Place Award​​** in the The 2nd International Algorithm and Computing Power Competition 2023, hosted by Pengcheng Laboratory - Continual Learning Track.
+
 <img width="672" height="378" alt="competition_track_prize" src="https://github.com/user-attachments/assets/cf057f98-23fc-4718-88f4-378579d87caf" />
 
 

@@ -1,6 +1,7 @@
 # OWM_Resnet50
 连续学习比赛
-![Uploading competition_track_prize.png…]()
+<img width="672" height="378" alt="competition_track_prize" src="https://github.com/user-attachments/assets/cf057f98-23fc-4718-88f4-378579d87caf" />
+
 
 ## Dataset
 创建`data`文件夹,与`OWM_Resnet50`文件夹并列。将程序中`shift.CIFAR10`下载的文件放在`data`目录下即可。

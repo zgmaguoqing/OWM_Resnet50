@@ -1,4 +1,4 @@
-# OWM_Resnet50
+# OWM_Resnet50: Continual Learning Project
 
 This repository achieved **7nd Place Award​​** in the The 2nd International Algorithm and Computing Power Competition 2023, hosted by Pengcheng Laboratory - Continual Learning Track.
 
@@ -22,6 +22,19 @@ This repository achieved **7nd Place Award​​** in the The 2nd International 
 ## Problem Setting
 
 <img width="866" height="295" alt="连续学习范式" src="https://github.com/user-attachments/assets/7ce4a584-3070-4706-890e-9f4ce2230e7b" />
+
+## Image Requirements
+- Evaluation Image: Use the dedicated evaluation Docker image with Python 3.9.16
+
+- Dependencies: See Dockerfile and requirements.txt for details.
+
+- Verified Environment: The code runs without errors using CUDA 11.7, PyTorch 2.0, and NumPy 1.25.2.
+- 
+## Expected Training Time
+
+- 10splitTasks: Approximately 1 hour 30 minutes per task, totaling ~12 hours for all 10 tasks.
+
+- 4splitDomains: Approximately 3 hours for the entire sequence of tasks.
 
 ## Run the code
 镜像说明：使用评测专用镜像，python3.9.16，依赖包见Dockerfile和requirements.txt。cuda版本为11.7、torch2.0、numpy1.25.2时运行无错误

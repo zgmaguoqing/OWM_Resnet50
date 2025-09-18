@@ -9,6 +9,8 @@ This repository achieved **7nd Place Award​​** in the The 2nd International 
 <!-- 创建`data`文件夹,与`OWM_Resnet50`文件夹并列。将程序中`shift.CIFAR10`下载的文件放在`data`目录下即可。
 - 加载一次数据集后，程序会将处理后的数据集对象保存。保存路径在`data`文件夹下，文件名为`cida10.dataset`-->
 
+The tasks include 10split and 4split. The download link for the dataset is: https://drive.google.com/file/d/1HHHr6J7Cqs5rCQ_oK4A3oj5qZrOpTA3U/view?usp=drive_link
+
 - Create a `data` folder at the same level as the `OWM_Resnet50` folder.
   
 - Place the files downloaded by `shift.CIFAR10` into the `data` directory.
@@ -44,9 +46,11 @@ _C.AGENT.TYPE = 'trainer_OWM'
 _C.AGENT.NAME = 'OWMTrainer'
 ```
 
+## Checkpoints for reproduction
+
+We have provided all checkpoints to reproduce all competition results: https://drive.google.com/drive/folders/1xa0_Cp33_ThrOSHtFJI5S6j2ZLwlWlvb?usp=drive_link
 
 ## Run the code
-
 
 
 
@@ -239,5 +243,6 @@ python iBatchLearn.py --cfg ./10splitTasks.yaml --user_cfg ./utils/user_10splitT
 徐　行（电子科技大学计算机科学与工程学院研究员）
 
 谢晓华（中山大学计算机学院教授）
+
 
 

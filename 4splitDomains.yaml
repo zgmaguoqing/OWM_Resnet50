@@ -1,0 +1,13 @@
+LOGGER_PATH: '4splitDomains'
+DOMAIN_INCR: True
+GPUID: [0]
+AGENT:
+  MODEL_TYPE: 'resnet'
+  MODEL_NAME: 'resnet50'
+
+DATASET:
+  NAME: "4splitDomains"
+  ROOT: 'input/contest_data/4splitDomains'
+  # ROOT: '/share/home/lxguo/Code/data/4splitDomains'
+  NUM_TASKS: 4
+  NUM_CLASSES: 60

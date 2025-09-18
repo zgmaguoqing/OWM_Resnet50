@@ -1,0 +1,18 @@
+PRINT_FREQ: 10
+
+AGENT:
+  TYPE: 'trainer_OWM'
+  NAME: 'OWMTrainer'
+  ALPHA_ZERO: 1e-5
+  ALPHA_ONE: 1e-5
+  ALPHA_TWO: 1e-5
+  ALPHA_THREE: 1e-1
+
+DATASET:
+  BATCHSIZE: 64
+  NUM_WORKERS: 4
+
+OPT:
+  SCHEDULE: [100]
+  NAME: 'SGD'
+  LR: 0.1

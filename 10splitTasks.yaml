@@ -1,0 +1,13 @@
+LOGGER_PATH: '10splitTasks'
+DOMAIN_INCR: False
+GPUID: [0]
+AGENT:
+  MODEL_TYPE: 'resnet'
+  MODEL_NAME: 'resnet50'
+
+DATASET:
+  NAME: "10splitTasks"
+  ROOT: 'input/contest_data/10splitTasks'
+  # ROOT: '/share/home/lxguo/Code/data/10splitTasks'
+  NUM_TASKS: 10
+  NUM_CLASSES: 100

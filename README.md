@@ -5,6 +5,11 @@
 ## Dataset
 创建`data`文件夹,与`OWM_Resnet50`文件夹并列。将程序中`shift.CIFAR10`下载的文件放在`data`目录下即可。
 - 加载一次数据集后，程序会将处理后的数据集对象保存。保存路径在`data`文件夹下，文件名为`cida10.dataset`
+
+## Problem Setting
+
+<img width="866" height="295" alt="连续学习范式" src="https://github.com/user-attachments/assets/7ce4a584-3070-4706-890e-9f4ce2230e7b" />
+
 ## Run the code
 ```
 python main.py

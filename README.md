@@ -50,7 +50,7 @@ _C.AGENT.NAME = 'OWMTrainer'
 
 
 
-4splitDomains 
+### 4splitDomains 
 
 Training (Reproduction)
 
@@ -76,7 +76,7 @@ python iBatchLearn.py --cfg ./4splitDomains.yaml --user_cfg ./utils/user_4splitD
 --dest_path ./dest-4splitDomains.pkl
 ```
 
-10splitTasks 
+### 10splitTasks 
 
 Training (Reproduction)
 
@@ -104,11 +104,11 @@ python iBatchLearn.py --cfg ./10splitTasks.yaml --user_cfg ./utils/user_10splitT
 ## Acknowledgments
 
 
-主办单位
+**主办单位**
 
 鹏城实验室
 
-协办单位
+**协办单位**
 
 中国工业与应用数学学会（大数据与人工智能专业委员会）
 
@@ -130,7 +130,7 @@ python iBatchLearn.py --cfg ./10splitTasks.yaml --user_cfg ./utils/user_10splitT
 
 西安人才集团有限公司
 
-大赛指导委员会
+**大赛指导委员会**
 
 袁亚湘（中国科学院院士、中科院数学院研究员）
 
@@ -144,7 +144,7 @@ python iBatchLearn.py --cfg ./10splitTasks.yaml --user_cfg ./utils/user_10splitT
 
 徐宗本（中国科学院院士、西安交通大学教授、琶洲实验室（黄埔）主任）
 
-大赛专家委员会
+**大赛专家委员会**
 
 徐宗本（中国科学院院士、西安交通大学教授、琶洲实验室（黄埔）主任）
 
@@ -183,7 +183,7 @@ python iBatchLearn.py --cfg ./10splitTasks.yaml --user_cfg ./utils/user_10splitT
 张　潼（香港科技大学讲座教授）
 
 
-大赛评测委员会
+**大赛评测委员会**
 
 胡事民（中国科学院院士、中国计算机学会副理事长、清华大学教授）
 
@@ -230,7 +230,7 @@ python iBatchLearn.py --cfg ./10splitTasks.yaml --user_cfg ./utils/user_10splitT
 宋井宽（电子科技大学计算机科学与工程学院教授）
 
 
-算法大赛中心
+**算法大赛中心**
 
 申恒涛（欧洲科学院院士、算法大赛中心主任、电子科技大学计算机科学与工程学院院长、四川省人工智能研究院院长）
 
@@ -239,4 +239,5 @@ python iBatchLearn.py --cfg ./10splitTasks.yaml --user_cfg ./utils/user_10splitT
 徐　行（电子科技大学计算机科学与工程学院研究员）
 
 谢晓华（中山大学计算机学院教授）
+
 

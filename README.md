@@ -1,6 +1,6 @@
 # OWM_Resnet50: Continual Learning Project
 
-This repository achieved **7nd Place Award​​** in the The 2nd International Algorithm and Computing Power Competition 2023, hosted by Pengcheng Laboratory - Continual Learning Track.
+This repository achieved **Third Prize** in the The 2nd International Algorithm and Computing Power Competition 2023, hosted by Pengcheng Laboratory - Continual Learning Track.
 
 <img width="672" height="378" alt="competition_track_prize" src="https://github.com/user-attachments/assets/cf057f98-23fc-4718-88f4-378579d87caf" />
 
@@ -243,6 +243,7 @@ python iBatchLearn.py --cfg ./10splitTasks.yaml --user_cfg ./utils/user_10splitT
 徐　行（电子科技大学计算机科学与工程学院研究员）
 
 谢晓华（中山大学计算机学院教授）
+
 
 
 

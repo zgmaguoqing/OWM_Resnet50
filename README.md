@@ -1,4 +1,4 @@
-# OWM_Resnet50: Continual Learning Project
+# OWM: Continual Learning Project
 
 This repository achieved **Third Prize** in the The 2nd International Algorithm and Computing Power Competition 2023, hosted by Pengcheng Laboratory - Continual Learning Track.
 
